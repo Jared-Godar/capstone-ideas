@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 LC09_L2SP_015049_20220201_20220204_02_T1/
 sat_data.json
+*.zip
 # C extensions
 *.so
 *.fits
@@ -133,3 +134,4 @@ LC09_L2SP_015049_20220201_20220204_02_T1.tar
 sat_data.json
 sentinel2_honduras.tiff
 ocean_temp.nc
+patient_notes.csv.zip

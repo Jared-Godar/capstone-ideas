@@ -6,7 +6,9 @@
 
 When you visit a doctor, how they interpret your symptoms can determine whether your diagnosis is accurate. 
 
-One part of the medical licensing emam  required test-takers to interact with Standardized Patients (people trained to portray specific clinical cases) and write a patient note. Trained physician raters later scored patient notes with rubrics that outlined each case’s important concepts (referred to as features). The more such features found in a patient note, the higher the score.
+This is an open Kaggle competition with a $50,000 reward. Details can be [found here.](https://www.kaggle.com/c/nbme-score-clinical-patient-notes/overview)
+
+One part of the medical licensing exam required test-takers to interact with Standardized Patients (people trained to portray specific clinical cases) and write a patient note. Trained physician raters later scored patient notes with rubrics that outlined each case’s important concepts (referred to as features). The more such features found in a patient note, the higher the score.
 
 **Goal**
 
