@@ -26,3 +26,19 @@ Approaches using natural language processing have been created to address this p
 
 We hope to tackle the biggest practical barriers in patient note scoring, making the approach more transparent, interpretable, and easing the development and administration of such assessments. As a result, medical practitioners will be able to explore the full potential of patient notes to reveal information relevant to clinical skills assessment.
 
+### Data:
+
+- `csv` list of features
+- `csv` with raw text of notes as well as labeled target data about which features were present as scored by physicians.
+
+### Evaluation:
+
+- Entries scored my micro-averaged F1 scores. 
+
+We score each character index as:
+
+- TP if it is within both a ground-truth and a prediction,
+- FN if it is within a ground-truth but not a prediction, and,
+- FP if it is within a prediction but not a ground truth.
+
+Finally, we compute an overall F1 score from the TPs, FNs, and FPs aggregated across all instances.
