@@ -2,9 +2,11 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+LC09_L2SP_015049_20220201_20220204_02_T1/
+sat_data.json
 # C extensions
 *.so
+*.fits
 
 # Distribution / packaging
 .Python
@@ -128,3 +130,6 @@ dmypy.json
 # Pyre type checker
 .pyre/
 LC09_L2SP_015049_20220201_20220204_02_T1.tar
+sat_data.json
+sentinel2_honduras.tiff
+ocean_temp.nc
